@@ -1,0 +1,117 @@
+.huruf{
+    line-height: 44px;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #44A6F1;
+    box-sizing: border-box;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+    background: none;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+
+   } 
+
+   .huruf:hover {
+
+   font-family: Arial;
+   font-weight: 400;
+   color: white;
+   background-color: #44A6F1;
+   cursor: pointer;
+   align-items: center;
+   text-align: center;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+
+   } 
+
+body
+* {
+ box-sizing: border-box;
+ font-family: "Arial", sans-serif;
+}
+
+
+.open-button {
+ background-color: #555;
+ color: white;
+ padding: 16px 20px;
+ border: none;
+ cursor: pointer;
+ opacity: 0.8;
+ position: fixed;
+ bottom: 23px;
+ right: 28px;
+ width: 280px;
+}
+
+.form-popup {
+ display: none;
+ position: fixed;
+ bottom: 0;
+ top: 70px;
+ align-content: center;
+ right: 560px;
+ border: 0px solid #f1f1f1;
+ z-index: 9;
+ outline: none;
+}
+
+.form-container {
+ max-width: 300px;
+ padding: 10px;
+ background-color: white;
+ border-radius: 25px;
+}
+
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=email], 
+           .form-container input[type=date] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ border: none;
+ background: #f1f1f1;
+ border-radius: 25px;
+ font-family: Arial;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus, 
+.form-container input[type=email]:focus, .form-container input[type=date]:focus {
+ background-color: #ddd;
+ outline: none;
+ border-radius: 25px;
+ font-family: Arial;
+}
+
+.form-container .btn_2 {
+ background-color: #44A6F1;
+ color: white;
+ padding: 10px 15px;
+ border: none;
+ cursor: pointer;
+ width: 100px;
+ margin-bottom:10px;
+ opacity: 0.8;
+ border-radius: 25px;
+ font-family: Arial;
+}
+
+.form-container .cancel {
+ background-color: red;
+ border-radius: 25px;
+ font-family: Arial;
+}
+
+.form-container .mauregis{
+    font-size: small;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+ opacity: 1;
+ border-radius: 25px;
+}
+

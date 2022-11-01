@@ -1,0 +1,82 @@
+.huruf{
+    line-height: 44px;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #44A6F1;
+    box-sizing: border-box;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 400;
+    background: none;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+
+} 
+
+.huruf:hover {
+   font-weight: 400;
+   color: white;
+   background-color: #44A6F1;
+   cursor: pointer;
+   align-items: center;
+   text-align: center;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+} 
+
+body
+* {
+ box-sizing: border-box;
+ 
+}
+
+.form-container {
+ max-width: 300px;
+ padding: 50px;
+ background-color: white;
+ border-radius: 25px;
+}
+
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=email] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ border: none;
+ background: #f1f1f1;
+ border-radius: 25px;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+ border-radius: 25px;
+}
+
+.form-container .btn_2 {
+ background-color: #44A6F1;
+ color: white;
+ padding: 10px 0px;
+ border: none;
+ cursor: pointer;
+ width: 100px;
+ margin-bottom:10px;
+ opacity: 0.8;
+ border-radius: 25px;
+}
+
+.form-container .mauregis{
+    font-size: small;
+}
+
+.form-container .cancel {
+ background-color: red;
+ border-radius: 25px;
+}
+
+
+.form-container .btn:hover, .open-button:hover{
+ opacity: 1;
+ border-radius: 25px;
+}
+
