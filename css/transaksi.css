@@ -1,0 +1,32 @@
+.btn_4 {
+    color: #5584ea;
+    background: #ffffff;
+    border: 1px solid #5584ea;
+    border-radius: 2px;
+}
+
+.btn_4:hover,
+.btn_4:focus {
+    color: #ffffff;
+    background: #5584ea;
+    box-shadow: none;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.table .thead-dark th {
+    text-align: center;
+    color: #ffffff;
+    background: #0065e1;
+    border-color: #0065e1;
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
